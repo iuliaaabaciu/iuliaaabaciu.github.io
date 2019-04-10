@@ -1,0 +1,39 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+hr {
+  max-width: 500px;
+  border-width: 2px;
+  border-color: #F05F44; 
+}
+
+header.startup {
+ 	background-image: url(bence-balla-schottner-1309653-unsplash.jpg);
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	height: 100%;
+ }
+
+header.startup hr {
+  margin-top: 100px;
+  margin-bottom: 5px; 
+}
+
+.background {
+  	opacity: 0.2;
+}
+
+.btn:hover {
+	cursor: pointer;
+  text-transform: uppercase;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+
+
+
+
